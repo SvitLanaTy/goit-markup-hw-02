@@ -31,6 +31,7 @@ body {
 .header-nav {
 }
 .header-logo {
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.33;
@@ -155,7 +156,7 @@ body {
 
 /*-------Team--------*/
 .team {
-  background-color:#F4F4FD ;
+  background-color: #f4f4fd;
 }
 .team-title {
   font-size: 36px;
@@ -189,10 +190,10 @@ body {
 /*-------Footer--------*/
 
 .footer {
-  background-color:#2E2F42 ;
+  background-color: #2e2f42;
 }
 .footer-logo {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -203,11 +204,54 @@ body {
   color: #4d5ae5;
 }
 .footer .accent {
-  color:#F4F4FD ;
+  color: #f4f4fd;
 }
 .footer-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #e7e9fc;
+}
+
+/*-------Portfolio--------*/
+
+.filter-list {
+}
+
+.filter-item {
+}
+.filter-button {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #4d5ae5;
+  cursor: pointer;
+}
+.filter-button:active {
+  color: #ffffff;
+  background-color: #4d5ae5;
+}
+.btn {
+}
+.filter-title {
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.filter-text {
+  font-size: 16px;
+  line-height: 0.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.filter-button:hover,
+.filter-button:focus {
+  color: #ffffff;
+  background-color: #4d5ae5;
 }
