@@ -1,6 +1,5 @@
 :root {
-  --section-title-color: #2e2f42;
-  --section-text-color: #434455;
+  --section-title-color: #2e2f42;  
   --main-font-size: 16px;
   --first-heder-color: #4d5ae5;
   --second-heder-color: #434455;
@@ -11,6 +10,7 @@
 
 body {
   font-family: "roboto", sans-serif;
+  color: #434455;
   background-color: #ffffff;
 }
 
@@ -74,6 +74,11 @@ body {
 
 .header-mail:hover,
 .header-mail:focus {
+  color: var(--first-heder-color);
+}
+
+.header-tel:hover,
+.header-tel:focus {
   color: var(--first-heder-color);
 }
 
@@ -147,8 +152,7 @@ body {
 .features-text {
   font-size: var(--main-font-size);
   line-height: var(--typical-line-height);
-  letter-spacing: var(--typical-letter-spacing);
-  color: var(--section-text-color);
+  letter-spacing: var(--typical-letter-spacing);  
 }
 
 /*-------Works--------*/
@@ -187,8 +191,7 @@ body {
 .list {
 }
 .team-item {
-   
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 .team-subtitle {
   font-size: 20px;
@@ -201,8 +204,7 @@ body {
   font-size: var(--main-font-size);
   line-height: var(--typical-line-height);
   text-align: center;
-  letter-spacing: var(--typical-letter-spacing);
-  color: var(--section-text-color);
+  letter-spacing: var(--typical-letter-spacing);  
 }
 
 /*-------Footer--------*/
@@ -240,7 +242,7 @@ body {
 }
 .filter-button {
   font-family: inherit;
-  font-weight: 700;
+  font-weight: 500;
   font-size: var(--main-font-size);
   line-height: var(--typical-line-height);
   display: flex;
@@ -249,8 +251,11 @@ body {
   letter-spacing: 0.04em;
   color: #4d5ae5;
   cursor: pointer;
+  background-color: #f4f4fd;  
+  border: 1px solid #e7e9fc;
 }
-.filter-button:active {
+.filter-button:hover,
+.filter-button:focus {
   color: #ffffff;
   background-color: var(--first-background-color-button);
 }
@@ -265,11 +270,5 @@ body {
 .filter-text {
   font-size: var(--main-font-size);
   line-height: 0.5;
-  letter-spacing: var(--typical-letter-spacing);
-  color: var(--section-text-color);
-}
-.filter-button:hover,
-.filter-button:focus {
-  color: #ffffff;
-  background-color: var(--first-background-color-button);
+  letter-spacing: var(--typical-letter-spacing);  
 }
