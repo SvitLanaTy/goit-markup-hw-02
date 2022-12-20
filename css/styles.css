@@ -254,11 +254,14 @@ body {
   background-color: #f4f4fd;  
   border: 1px solid #e7e9fc;
 }
+
 .filter-button:hover,
 .filter-button:focus {
   color: #ffffff;
   background-color: var(--first-background-color-button);
 }
+
+
 .btn {
 }
 .filter-title {
@@ -269,6 +272,6 @@ body {
 }
 .filter-text {
   font-size: var(--main-font-size);
-  line-height: 0.5;
+  line-height: 1.5;
   letter-spacing: var(--typical-letter-spacing);  
 }
